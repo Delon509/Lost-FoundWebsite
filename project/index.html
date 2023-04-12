@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>Online Lost and Found System Homepage</title>
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+
+   </head>
+   <!-- body -->
+   <body class="main-layout">
+      <!-- loader  -->
+      <div class="loader_bg">
+         <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+      </div>
+      <!-- end loader -->
+      <div id="mySidepanel" class="sidepanel">
+         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+         <a href="index.html">Home</a>
+         <a href="#about">About</a>
+         <a href="#footer">Find Us</a>
+         <a href="login.php">Login</a>
+         <a href="register.php">Register</a>
+         <a href="forget.php">Forget Password</a>
+      </div>
+      <!-- header -->
+      <header>
+         <!-- header inner -->
+         <div class="header">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                     <div class="right_bottun">
+                        <button class="openbtn" onclick="openNav()"><img src="images/menu_icon.png" alt="#"/> </button> 
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- end header inner -->
+      <!-- end header -->
+      <!-- banner -->
+      <section class="banner_main">
+         <div class="container">
+            <div class="carousel-caption">
+               <div class="text-bg">
+                  <h1>Lost&Found</h1>
+                  <span>System</span>
+                  <a class="read_more" href="register.php">Let's Use</a>
+                  <ul class="social_team">
+                     <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a> </li>
+                     <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a> </li>
+                     <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </li>
+                     <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a> </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- end banner -->
+      <!-- about section -->
+      <div id="about" class="about">
+         <div class="container">
+            <div class="row ">
+               <div class="col-md-5">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <div class="titlepage">
+                           <h2>About</h2>
+                           <p>It is an online free lost-and-found system. User can create a notice of either "lost item" or "found item". Moreover, user can view notices and respond it.</p>
+                        </div>
+                     </div>
+                     <div class="col-md-12">
+                        <div class="about_img">
+                           <figure><img src="images/about_img.png" alt="#"/></figure>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-7">
+                  <div class="about_right">
+                     <figure><img src="images/aright.jpg" alt="#"/></figure>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- about section -->
+      <!--  footer -->
+      <footer>
+         <div id="footer" class="footer">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-4">
+                     <h3>Social Media</h3>
+                     <ul class="location_icon">
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a> Facebook</li>
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a> Twitter</li>
+                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a> Linkedin</li>
+                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a> Instagram</li>
+                     </ul>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="fid_box">
+                        <h3>Find us  </h3>
+                        <ul class="location_icon">
+                           <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i></a><br> Hong Kong</li>
+                           <li><a href="#"><i class="fa fa-phone" aria-hidden="true"></i></a><br>
+                              (+852) 1234 5678<br> (+852) 3062 4770 
+                           </li>
+                           <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a><br> lostnfound@gmail.com</li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- end footer -->
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <!-- sidebar -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+      <script>
+         function openNav() {
+           document.getElementById("mySidepanel").style.width = "250px";
+         }
+         
+         function closeNav() {
+           document.getElementById("mySidepanel").style.width = "0";
+         }
+      </script>
+   </body>
+</html>
+

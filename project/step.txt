@@ -1,0 +1,20 @@
+EIE4432 Project Presentation
+1. Home Page Before Login
+2. Register
+username: testuser01
+password: abcd
+sq: My favourite food
+sa: fishball
+3. Reset Password / Forget Password
+old pw: abcd
+new pw: eie4432
+4. Login
+5. (User) Create Notice
+6. View My Notice
+7. View Pending Notice
+8. View Notice Detail and Respond
+9. Logout
+10. (Admin) Home Page + System Stat
+11. View List User
+12. View User Notice through Search
+13. View List of Pending/Completed Notices
